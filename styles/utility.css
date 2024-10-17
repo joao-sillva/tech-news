@@ -5,3 +5,11 @@
 .grid-flow-column {
   grid-auto-flow: column;
 }
+
+.grid-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gap-16 {
+  gap: 16px;
+}
