@@ -1,10 +1,10 @@
 #primary {
-  padding-block: 20px;
+  padding-block: 2rem;
 
   div {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.8rem;
   }
 
   div:nth-child(2) {
@@ -17,7 +17,7 @@
 }
 
 #secondary {
-  padding-block: 14px;
+  padding-block: 1.4rem;
   border-inline: none;
   border: 1px solid var(--stroke-color);
   justify-content: space-between;
