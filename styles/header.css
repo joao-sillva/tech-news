@@ -22,3 +22,19 @@
   border: 1px solid var(--stroke-color);
   justify-content: space-between;
 }
+
+@media (width <= 80em) {
+  #primary {
+    display: grid;
+
+    & strong {
+      display: none;
+    }
+  }
+
+  #secondary {
+    display: grid;
+    overflow-x: scroll;
+    gap: 1.2rem;
+  }
+}

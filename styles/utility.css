@@ -33,3 +33,10 @@
 .text-sm {
   font: var(--text-sm);
 }
+
+@media (width <= 80em) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
