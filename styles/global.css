@@ -64,3 +64,16 @@ main {
     'ai aside'
   ;
 }
+
+.content-tag {
+  font: 500 10px/1.2 var(--font-family);
+  color: var(--text-color-secondary);
+  background: var(--brand-color-dark);
+  box-shadow: 0 4px 16px #02061740;
+  border-radius: 4px;
+ 
+  display: inline-block;
+  padding: 4px 8px; 
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
