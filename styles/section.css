@@ -1,0 +1,25 @@
+section {
+  header {
+    font: var(--text-span);
+    padding-block: 12px 24px;
+    border-top: 1px solid var(--stroke-color);
+  }
+
+  a {
+    justify-self: end;
+    align-items: center;
+    gap: 8px;
+
+    span { 
+      width: 16px;
+      height: 16px;
+      background-color: url(../assets/icons/arrow-light.svg);
+    }
+
+    &:hover {
+      span {
+        background-color: url(../assets/icons/arrow-hover.svg);
+      }     
+    }
+  }
+}
