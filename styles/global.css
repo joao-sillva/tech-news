@@ -79,3 +79,11 @@ main {
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
+
+@media (width <= 80em) {
+  .container {
+    --max-width: 36.5rem;
+    width: min(var(--max-width), 100%);
+    padding-inline: 1.4rem;
+  }
+}

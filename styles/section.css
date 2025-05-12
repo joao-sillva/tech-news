@@ -59,6 +59,12 @@ section {
       }
     }
   }
+
+  @media (width <= 80em) {
+    & h2 {
+      font-size: 1.4rem;
+    }
+  }
 }
 
 #weekly {
@@ -85,6 +91,20 @@ section {
       font-weight: 900;
     }
   }
+
+  @media (width <= 80em) {
+    & figure {
+      width: 30rem;
+    }
+
+    & header {
+      display: grid;
+    
+      & a {
+        display: grid;
+      }
+    }
+  }
 }
 
 #ai {
@@ -97,6 +117,28 @@ section {
 
   h3 {
     margin-block: 0.8rem 0.4rem;
+  }
+
+  @media (width <= 80em) {
+    & header {
+      display: grid;
+    
+      & h3 {
+        font-size: 1.4rem;
+      }
+
+      & a {
+        display: grid;
+      }
+    }
+
+    & article {
+      max-width: 30.8rem;
+      
+      & h3 {
+        font-size: 1.4rem;
+      }
+    }
   }
 }
 
@@ -115,5 +157,23 @@ aside {
     width: 7.2rem;
     aspect-ratio: 1/1;
     object-fit: cover;
+  }
+
+  @media (width <= 80em) {
+    & header {
+      display: grid;
+
+      & a {
+        display: grid;
+      }
+    }
+
+    & article {
+      display: grid;
+
+      & h3 {
+        font-size: 1.4rem;
+      }
+    }
   }
 }
