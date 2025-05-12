@@ -1,18 +1,18 @@
 section {
   header {
     font: var(--text-span);
-    padding-block: 12px 24px;
+    padding-block: 1.2rem 2.4rem;
     border-top: 1px solid var(--stroke-color);
   }
 
   a {
     justify-self: end;
     align-items: center;
-    gap: 8px;
+    gap: 0.8rem;
 
     span { 
-      width: 16px;
-      height: 16px;
+      width: 1.6rem;
+      height: 1.6rem;
       background-color: url(../assets/icons/arrow-light.svg);
     }
 
@@ -33,7 +33,7 @@ section {
   }
 
   .card {
-    border-radius: 4px;
+    border-radius: 0.4rem;
     overflow: hidden;
     position: relative;
 
@@ -48,14 +48,14 @@ section {
     figcaption {
       position: absolute;
       bottom: 0;
-      padding: 24px;
+      padding: 2.4rem;
 
       h2 {
-        margin-top: 8px;
+        margin-top: 0.8rem;
       }
 
       &:has(.text-lg) {
-        padding: 12px;
+        padding: 1.2rem;
       }
     }
   }
@@ -64,11 +64,11 @@ section {
 #weekly {
   grid-area: weekly;
   & > div {
-    grid-template-columns: repeat(4, 292px);
+    grid-template-columns: repeat(4, 29.2rem);
   }
 
   img {
-    height: 160px;
+    height: 16rem;
   }
 
   figure {
@@ -76,12 +76,12 @@ section {
     
     .content-tag {
       position: absolute;
-      top: 8px;
-      left: 8px;
+      top: 0.8rem;
+      left: 0.8rem;
     }
 
     p {
-      margin-top: 8px;
+      margin-top: 0.8rem;
       font-weight: 900;
     }
   }
@@ -90,13 +90,13 @@ section {
 #ai {
   grid-area: ai;
   img {
-    width: 176px;
+    width: 17.6rem;
     aspect-ratio: 1/1;
     object-fit: cover;
   }
 
   h3 {
-    margin-block: 8px 4px;
+    margin-block: 0.8rem 0.4rem;
   }
 }
 
@@ -105,14 +105,14 @@ aside {
 }
 
 #more {
-  margin-top: 32px;
+  margin-top: 3.2rem;
   
   h3 {
-    margin-top: 8px;
+    margin-top: 0.8rem;
   }
 
   img {
-    width: 72px;
+    width: 7.2rem;
     aspect-ratio: 1/1;
     object-fit: cover;
   }

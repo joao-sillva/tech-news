@@ -5,6 +5,8 @@
 }
 
 :root {
+  font-size: 62.5%;
+
   --brand-color-light: #60A5FA;
   --brand-color-dark: #1D4ED8;
   --bg-color: #0F172A;
@@ -13,12 +15,12 @@
   --text-color-secondary: #CBD5E1;
 
   --font-family: "Archivo", sans-serif;
-  --h1: 800 24px/135% var(--font-family);
-  --h2: 800 16px/140% var(--font-family);
-  --h3: 800 14px/140% var(--font-family);
-  --text: 400 14px/140% var(--font-family);
-  --text-sm: 400 14px/160% var(--font-family);
-  --text-span: 600 14px/145% var(--font-family);
+  --h1: 800 2.4rem/135% var(--font-family);
+  --h2: 800 1.6rem/140% var(--font-family);
+  --h3: 800 1.4rem/140% var(--font-family);
+  --text: 400 1.4rem/140% var(--font-family);
+  --text-sm: 400 1.4rem/160% var(--font-family);
+  --text-span: 600 1.4rem/145% var(--font-family);
 }
 
 body {
@@ -47,15 +49,15 @@ img {
 }
 
 .container {
-  max-width: 1280px;
-  padding-inline: 32px;
+  max-width: 128rem;
+  padding-inline: 3.2rem;
   margin-inline: auto;
 }
 
 main {
-  margin-block: 40px;
-  row-gap: 80px;
-  column-gap: 32px;
+  margin-block: 4rem;
+  row-gap: 8rem;
+  column-gap: 3.2rem;
 
   grid-template-columns: 2fr 1.5fr;
   grid-template-areas: 
@@ -66,14 +68,14 @@ main {
 }
 
 .content-tag {
-  font: 500 10px/1.2 var(--font-family);
+  font: 500 1rem/1.2 var(--font-family);
   color: var(--text-color-secondary);
   background: var(--brand-color-dark);
   box-shadow: 0 4px 16px #02061740;
   border-radius: 4px;
  
   display: inline-block;
-  padding: 4px 8px; 
+  padding: 0.4rem 0.8rem; 
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
